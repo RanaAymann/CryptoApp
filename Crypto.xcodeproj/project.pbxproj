@@ -15,6 +15,10 @@
 		1B371DD22ADD17ED00AE4662 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DD12ADD17ED00AE4662 /* HomeView.swift */; };
 		1B371DD62ADD1BBA00AE4662 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DD52ADD1BBA00AE4662 /* CircleButtonView.swift */; };
 		1B371DD82ADD23F000AE4662 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DD72ADD23F000AE4662 /* CircleButtonAnimationView.swift */; };
+		1B371DDB2ADD3C6700AE4662 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DDA2ADD3C6700AE4662 /* CoinModel.swift */; };
+		1B371DDD2ADD5CF800AE4662 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DDC2ADD5CF800AE4662 /* CoinRowView.swift */; };
+		1B371DDF2ADD5D4700AE4662 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DDE2ADD5D4700AE4662 /* PreviewProvider.swift */; };
+		1B371DE12ADE69E200AE4662 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DE02ADE69E200AE4662 /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		1B371DD12ADD17ED00AE4662 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1B371DD52ADD1BBA00AE4662 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		1B371DD72ADD23F000AE4662 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		1B371DDA2ADD3C6700AE4662 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		1B371DDC2ADD5CF800AE4662 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		1B371DDE2ADD5D4700AE4662 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		1B371DE02ADE69E200AE4662 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 			children = (
 				1B371DBC2ADD12E400AE4662 /* CryptoApp.swift */,
 				1B371DCA2ADD145C00AE4662 /* Extensions */,
+				1B371DD92ADD3C2A00AE4662 /* Models */,
 				1B371DCD2ADD17A600AE4662 /* Core */,
 				1B371DBE2ADD12E400AE4662 /* ContentView.swift */,
 				1B371DC02ADD12E600AE4662 /* Assets.xcassets */,
@@ -81,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				1B371DCB2ADD147B00AE4662 /* Color.swift */,
+				1B371DDE2ADD5D4700AE4662 /* PreviewProvider.swift */,
+				1B371DE02ADE69E200AE4662 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -107,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				1B371DD12ADD17ED00AE4662 /* HomeView.swift */,
+				1B371DDC2ADD5CF800AE4662 /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +145,14 @@
 				1B371DD72ADD23F000AE4662 /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		1B371DD92ADD3C2A00AE4662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B371DDA2ADD3C6700AE4662 /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,12 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B371DDD2ADD5CF800AE4662 /* CoinRowView.swift in Sources */,
 				1B371DBF2ADD12E400AE4662 /* ContentView.swift in Sources */,
 				1B371DD22ADD17ED00AE4662 /* HomeView.swift in Sources */,
 				1B371DBD2ADD12E400AE4662 /* CryptoApp.swift in Sources */,
 				1B371DD62ADD1BBA00AE4662 /* CircleButtonView.swift in Sources */,
 				1B371DCC2ADD147B00AE4662 /* Color.swift in Sources */,
 				1B371DD82ADD23F000AE4662 /* CircleButtonAnimationView.swift in Sources */,
+				1B371DDF2ADD5D4700AE4662 /* PreviewProvider.swift in Sources */,
+				1B371DE12ADE69E200AE4662 /* Double.swift in Sources */,
+				1B371DDB2ADD3C6700AE4662 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
