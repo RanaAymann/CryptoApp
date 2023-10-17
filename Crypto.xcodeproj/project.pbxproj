@@ -19,6 +19,7 @@
 		1B371DDD2ADD5CF800AE4662 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DDC2ADD5CF800AE4662 /* CoinRowView.swift */; };
 		1B371DDF2ADD5D4700AE4662 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DDE2ADD5D4700AE4662 /* PreviewProvider.swift */; };
 		1B371DE12ADE69E200AE4662 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DE02ADE69E200AE4662 /* Double.swift */; };
+		1B371DE32ADE76AC00AE4662 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DE22ADE76AC00AE4662 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1B371DDC2ADD5CF800AE4662 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		1B371DDE2ADD5D4700AE4662 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		1B371DE02ADE69E200AE4662 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		1B371DE22ADE76AC00AE4662 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		1B371DD02ADD17D800AE4662 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1B371DE22ADE76AC00AE4662 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B371DDD2ADD5CF800AE4662 /* CoinRowView.swift in Sources */,
+				1B371DE32ADE76AC00AE4662 /* HomeViewModel.swift in Sources */,
 				1B371DBF2ADD12E400AE4662 /* ContentView.swift in Sources */,
 				1B371DD22ADD17ED00AE4662 /* HomeView.swift in Sources */,
 				1B371DBD2ADD12E400AE4662 /* CryptoApp.swift in Sources */,
