@@ -31,8 +31,10 @@ struct HomeView: View {
                     portfolioCoinsList
                         .transition(.move(edge: .trailing))
                 }
+                // test translation
+                // Text("CryptoApp")
                 Spacer(minLength: 0)
-                
+
             }
         }
     }

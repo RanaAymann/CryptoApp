@@ -18,6 +18,7 @@ struct CryptoApp: App {
             NavigationView {
                 HomeView().navigationBarHidden(true)
             }.environmentObject(vm)
+                .environment(\.locale, Locale(identifier: "ar"))
         }
     }
 }
