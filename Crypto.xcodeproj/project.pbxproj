@@ -23,6 +23,7 @@
 		1B371DF32ADEADAB00AE4662 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B371DF52ADEADAB00AE4662 /* Localizable.strings */; };
 		1B371DF82ADEADC900AE4662 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B371DFA2ADEADC900AE4662 /* Localizable.strings */; };
 		1B371DFD2ADEB84500AE4662 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DFC2ADEB84500AE4662 /* CoinDataService.swift */; };
+		1B371E002ADECC9000AE4662 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B371DFF2ADECC9000AE4662 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		1B371DF42ADEADAB00AE4662 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1B371DF92ADEADC900AE4662 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1B371DFC2ADEB84500AE4662 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		1B371DFF2ADECC9000AE4662 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,6 @@
 		1B371DB02ADD12E400AE4662 = {
 			isa = PBXGroup;
 			children = (
-				1B371DE42ADEA7E800AE4662 /* Localization */,
 				1B371DBB2ADD12E400AE4662 /* Crypto */,
 				1B371DBA2ADD12E400AE4662 /* Products */,
 			);
@@ -77,12 +78,14 @@
 			isa = PBXGroup;
 			children = (
 				1B371DBC2ADD12E400AE4662 /* CryptoApp.swift */,
+				1B371DFE2ADECC6400AE4662 /* Utilities */,
 				1B371DCA2ADD145C00AE4662 /* Extensions */,
 				1B371DFB2ADEB80B00AE4662 /* Services */,
 				1B371DD92ADD3C2A00AE4662 /* Models */,
 				1B371DCD2ADD17A600AE4662 /* Core */,
 				1B371DBE2ADD12E400AE4662 /* ContentView.swift */,
 				1B371DC02ADD12E600AE4662 /* Assets.xcassets */,
+				1B371DE42ADEA7E800AE4662 /* Localization */,
 				1B371DC22ADD12E600AE4662 /* Preview Content */,
 			);
 			path = Crypto;
@@ -183,6 +186,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		1B371DFE2ADECC6400AE4662 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B371DFF2ADECC9000AE4662 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +275,7 @@
 				1B371DBD2ADD12E400AE4662 /* CryptoApp.swift in Sources */,
 				1B371DD62ADD1BBA00AE4662 /* CircleButtonView.swift in Sources */,
 				1B371DCC2ADD147B00AE4662 /* Color.swift in Sources */,
+				1B371E002ADECC9000AE4662 /* NetworkingManager.swift in Sources */,
 				1B371DD82ADD23F000AE4662 /* CircleButtonAnimationView.swift in Sources */,
 				1B371DDF2ADD5D4700AE4662 /* PreviewProvider.swift in Sources */,
 				1B371DE12ADE69E200AE4662 /* Double.swift in Sources */,
