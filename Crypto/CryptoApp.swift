@@ -15,11 +15,11 @@ struct CryptoApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            CoreDataBootcamp()
-//            NavigationView {
-//                HomeView().navigationBarHidden(true)
-//            }.environmentObject(vm)
-//                .environment(\.locale, Locale(identifier: "ar"))
+//            CoreDataBootcamp()
+            NavigationView {
+                HomeView().navigationBarHidden(true)
+            }.environmentObject(vm)
+                .environment(\.locale, Locale(identifier: "ar"))
         }
     }
 }
