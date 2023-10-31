@@ -27,6 +27,8 @@
 		1BC8E4042AE5001C0031C442 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8E4032AE5001C0031C442 /* CoinImageView.swift */; };
 		1BC8E4062AE50BC10031C442 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8E4052AE50BC10031C442 /* CoinImageService.swift */; };
 		1BC8E4082AE50CFD0031C442 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8E4072AE50CFD0031C442 /* CoinImageViewModel.swift */; };
+		1BD35DF02AF0E07400D8852A /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD35DEF2AF0E07400D8852A /* CoreDataBootcamp.swift */; };
+		1BD35DF32AF0E2C000D8852A /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BD35DF12AF0E2C000D8852A /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		1BC8E4032AE5001C0031C442 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		1BC8E4052AE50BC10031C442 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		1BC8E4072AE50CFD0031C442 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		1BD35DEF2AF0E07400D8852A /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		1BD35DF22AF0E2C000D8852A /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		1B371DBB2ADD12E400AE4662 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				1BD35DF12AF0E2C000D8852A /* FruitsContainer.xcdatamodeld */,
+				1BD35DEF2AF0E07400D8852A /* CoreDataBootcamp.swift */,
 				1B371DBC2ADD12E400AE4662 /* CryptoApp.swift */,
 				1B371DFE2ADECC6400AE4662 /* Utilities */,
 				1B371DCA2ADD145C00AE4662 /* Extensions */,
@@ -284,9 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD35DF32AF0E2C000D8852A /* FruitsContainer.xcdatamodeld in Sources */,
 				1B371DFD2ADEB84500AE4662 /* CoinDataService.swift in Sources */,
 				1B371DDD2ADD5CF800AE4662 /* CoinRowView.swift in Sources */,
 				1B371DE32ADE76AC00AE4662 /* HomeViewModel.swift in Sources */,
+				1BD35DF02AF0E07400D8852A /* CoreDataBootcamp.swift in Sources */,
 				1B371DBF2ADD12E400AE4662 /* ContentView.swift in Sources */,
 				1B371DD22ADD17ED00AE4662 /* HomeView.swift in Sources */,
 				1BC8E4042AE5001C0031C442 /* CoinImageView.swift in Sources */,
@@ -525,6 +533,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BD35DF12AF0E2C000D8852A /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BD35DF22AF0E2C000D8852A /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 1BD35DF22AF0E2C000D8852A /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1B371DB12ADD12E400AE4662 /* Project object */;
 }
